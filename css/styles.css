@@ -100,6 +100,7 @@ text-align: center;
   display: block;
   position: relative;
   color: #404bbf;
+  transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .address-list{
   display: flex;
@@ -121,7 +122,8 @@ font-weight: 400;
 letter-spacing: 0.02em;
 text-align: left;
 color:#434455;
-line-height: 1.5
+line-height: 1.5;
+transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .link-address:focus, 
 .link-address:hover{
@@ -319,4 +321,14 @@ text-align: left;
   stroke-width: 0;
   stroke: currentColor;
   fill: currentColor;
+}
+::after{
+  content: '';
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  height: 4px;
+  background-color: #404bbf;
+  border-radius: 2px;
 }
