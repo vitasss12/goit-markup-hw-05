@@ -436,3 +436,7 @@ fill: #f4f4fd;
   align-items: center;
   justify-content: center;
 }
+.footer-link:hover,
+.footer-link:focus{
+  background-color: #31d0aa;
+}
