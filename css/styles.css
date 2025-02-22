@@ -367,7 +367,6 @@ text-align: left;
   justify-content: center;
 }
 .social-link:hover,
-.social-link:focus{
+.social-link:focus {
   background-color: #404bbf;
-  cursor: pointer;
 }
