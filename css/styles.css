@@ -153,6 +153,7 @@ text-align: left;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  margin:0 auto;
 }
 .business{
   font-size: 56px;
