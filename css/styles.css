@@ -418,3 +418,12 @@ fill: #f4f4fd;
   color:#FFFFFF;
   margin-bottom: 16px;
 }
+.footer-social-list{
+  display: flex;
+  gap: 16px;
+
+}
+.footer-social-item{
+  width: 40px;
+  height: 40px;
+}
