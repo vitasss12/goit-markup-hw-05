@@ -403,6 +403,10 @@ fill: #f4f4fd;
   text-transform: uppercase;
   text-decoration: none;
 }
-.subcontainer{
+.footer-container{
   display: flex;
+  align-items: baseline;
+}
+.footer-content{
+  margin-right: 120px
 }
