@@ -370,3 +370,6 @@ text-align: left;
 .social-link:focus {
   background-color: #404bbf;
 }
+.icon-social{
+fill: #f4f4fd;
+}
