@@ -215,9 +215,11 @@ text-align: left;
   margin-bottom: 8px;
 }
 .para{
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+font-weight: 400;
+color: #434455;
 }
 .section-tree{
   background-color: #F4F4FD;
@@ -335,37 +337,42 @@ text-align: left;
 .section-two{
   padding: 120px 0;
 }
-.section-two-list{
-  display: flex;
-  gap: 24px;
-  align-items: center;
+.conteiner-strategy {
   justify-content: center;
 }
+.section-two-list{
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  align-items: center;
+  justify-content: space-between;
+}
+.conteiner-strategy>li {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 8px;
+  width: 264px;
+  height: 104px;
+}
 .section-two-item{
+  display: inline-block;
   width: calc((100% - 72px) / 4);
-  flex-basis: calc((100% - 72px) / 4);
 }
 .list-prof{
   display: flex;
   gap: 24px;
 }
 .icon {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  display: inline-block;
   width: 64px;
   height: 64px;
-  stroke-width: 0;
-  stroke: currentColor;
-  fill: currentColor;
 }
 .icons{
   display: flex;
   justify-content: center;
   align-items: center;
   height: 112px;
-  width: 100%;
   background-color: #f4f4fd;
   border-radius: 4px;
   border: 1px solid #8e8f99;
