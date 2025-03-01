@@ -464,12 +464,6 @@ fill: #f4f4fd;
 .footer-link:focus{
   background-color: #31d0aa;
 }
-.modal-overlay{
-  
-}
-.modal{
-
-}
 .footer-sub{
 
 }
@@ -518,5 +512,12 @@ fill: #f4f4fd;
 
 }
 .icon-sub{
+  color: #FFFFFF;
   margin-left: 16px;
+}
+.modal-overlay{
+  
+}
+.modal{
+
 }
