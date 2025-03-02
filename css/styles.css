@@ -666,6 +666,7 @@ fill: #f4f4fd;
   fill: #F4F4FD;
 }
 .send-button{
+  margin: 0 auto;
   display: block; 
   min-width: 169px;
   height: 56px ;
