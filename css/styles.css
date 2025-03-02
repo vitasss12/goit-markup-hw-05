@@ -666,11 +666,10 @@ fill: #f4f4fd;
   fill: #F4F4FD;
 }
 .send-button{
-  display: flex;
   display: block; 
   min-width: 169px;
   height: 56px ;
-  Font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
