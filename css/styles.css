@@ -653,7 +653,10 @@ fill: #f4f4fd;
   justify-content: center;
   fill: transparent;
 }
-.visually-hidden:checked {
+.input-visu .privacy-span:checked{
   background-color:#404bbf;
   border: none;
+}
+.a-policy{
+  color: #4d5ae5;
 }
