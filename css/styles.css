@@ -599,7 +599,7 @@ fill: #f4f4fd;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
-.input-name path {
+.input-name:focus {
   fill: #000000;
 }
 .icon-modal-info{
@@ -609,6 +609,7 @@ fill: #f4f4fd;
   top: 50%;
   transform: translateY(-50%);
 }
-#user-name:focus + .icon-modal-info path {
+.icon-modal-info:focus {
   fill: #4D5AE5;
 }
+
