@@ -654,15 +654,11 @@ fill: #f4f4fd;
   fill: transparent;
   margin-right: 8px;
 }
-.input-visu .privacy-span:checked{
-  background-color:#404bbf;
-  border: none;
-}
-.a-policy{
+ .a-policy{
   color: #4d5ae5;
 }
-.privacy-span:checked .privacy-label span{
-  background-color: #404bbf;
+.input-check:checked + label > span {
+  background-color:#404bbf;
   border: none;
   fill: #F4F4FD;
- }
+}
