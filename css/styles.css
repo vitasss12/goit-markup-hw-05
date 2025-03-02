@@ -661,9 +661,8 @@ fill: #f4f4fd;
 .a-policy{
   color: #4d5ae5;
 }
-.privacy-span:checked + .privacy-label span{
+.privacy-span:checked .privacy-label span{
   background-color: #404bbf;
   border: none;
   fill: #F4F4FD;
-
  }
