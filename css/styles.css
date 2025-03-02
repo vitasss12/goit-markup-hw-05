@@ -612,6 +612,9 @@ fill: #f4f4fd;
 .icon-modal-info:focus-within{
   fill: #4D5AE5;
 }
+.user-div input:focus + svg {
+  fill: #4D5AE5;
+}
 .form-comment{
   margin-bottom: 16px;
 }
